@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GitaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:text="1. Arjuna Visada Yoga  Arjuna's Dilemma"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="2. Sankhya Yoga Transcendental Knowledge"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter1"
+                app:layout_constraintTop_toBottomOf="@+id/chapter1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="3. Karma Yoga Path of Selfless Service"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter2"
+                app:layout_constraintTop_toBottomOf="@+id/chapter2" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="4. Jnana Karma Sanyasa Yoga Path of Knowledge and the Disciplines of Action"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter3"
+                app:layout_constraintTop_toBottomOf="@+id/chapter3" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="5. Karma Sanyasa Yoga
+Path of Renunciation"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter4"
+                app:layout_constraintTop_toBottomOf="@+id/chapter4" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="6. Dhyana Yoga
+Path of Meditation"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter5"
+                app:layout_constraintTop_toBottomOf="@+id/chapter5" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="7. Gyaan Vigyana Yoga
+Self-Knowledge and Enlightenment"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter6"
+                app:layout_constraintTop_toBottomOf="@+id/chapter6" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="8. Akshara Brahma Yoga
+Path of the Eternal God"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter7"
+                app:layout_constraintTop_toBottomOf="@+id/chapter7" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="9. Raja Vidya Yoga
+Yoga through the King of Sciences"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter8"
+                app:layout_constraintTop_toBottomOf="@+id/chapter8" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:text="10. Vibhooti Yoga
+Yoga through Appreciating the Infinite Opulences of God"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter9"
+                app:layout_constraintTop_toBottomOf="@+id/chapter9" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:text="11. Vishwaroopa Darshana Yoga
+Yoga through Beholding the Cosmic Form of God"
+                android:padding="15dp"
+                android:textColor="@color/black"
+                android:textAlignment="viewStart"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter10"
+                app:layout_constraintTop_toBottomOf="@+id/chapter10"  />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="12. Bhakti Yoga
+The Yoga of Devotion"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter11"
+                app:layout_constraintTop_toBottomOf="@+id/chapter11" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="13. Ksetra Ksetrajna Vibhaaga Yoga
+Yoga through Distinguishing the Field and the Knower of the Field"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter12"
+                app:layout_constraintTop_toBottomOf="@+id/chapter12" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="14. Gunatraya Vibhaga Yoga
+Yoga through Understanding the Three Modes of Material Nature"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter13"
+                app:layout_constraintTop_toBottomOf="@+id/chapter13" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="15. Purushottama Yoga
+The Yoga of the Supreme Divine Personality"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter14"
+                app:layout_constraintTop_toBottomOf="@+id/chapter14" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="16. Daivasura Sampad Vibhaga Yoga
+Yoga through Discerning the Divine and Demoniac Natures"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter15"
+                app:layout_constraintTop_toBottomOf="@+id/chapter15" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="17. Sraddhatraya Vibhaga Yoga
+Yoga through Discerning the Three Divisions of Faith"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter16"
+                app:layout_constraintTop_toBottomOf="@+id/chapter16" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/chapter18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/chapters_btn"
+                android:fontFamily="@font/aladin"
+                android:padding="15dp"
+                android:text="18. Moksha Sanyaas Yoga
+Yoga through the Perfection of Renunciation and Surrender"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/chapter17"
+                app:layout_constraintTop_toBottomOf="@+id/chapter17" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--  Nav Bar-->
+    <LinearLayout
+        android:id="@+id/nav_bg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/nav_btn"
+            android:onClick="homeAct"/>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/nav_btn_clk"
+            android:onClick="gitaAct"/>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/nav_btn"
+            android:onClick="AudioAct"/>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/nav_btn"
+            android:onClick="AboutAct"/>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
